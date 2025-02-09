@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
+using AwesomeAssertions.Common;
 using JetBrains.Annotations;
 using Xunit;
 

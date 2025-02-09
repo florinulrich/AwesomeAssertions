@@ -151,9 +151,9 @@ class Build : NukeBuild
 
     Project[] Projects =>
     [
-        Solution.Specs.FluentAssertions_Specs,
-        Solution.Specs.FluentAssertions_Equivalency_Specs,
-        Solution.Specs.FluentAssertions_Extensibility_Specs,
+        Solution.Specs.AwesomeAssertions_Specs,
+        Solution.Specs.AwesomeAssertions_Equivalency_Specs,
+        Solution.Specs.AwesomeAssertions_Extensibility_Specs,
         Solution.Specs.FSharp_Specs,
         Solution.Specs.VB_Specs
     ];

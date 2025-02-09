@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AwesomeAssertions.Equivalency;
 using AwesomeAssertions.Equivalency.Steps;
+using AwesomeAssertions.Execution;
 using JetBrains.Annotations;
 using Xunit;
 using Xunit.Sdk;

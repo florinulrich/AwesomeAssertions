@@ -1,11 +1,11 @@
 namespace FSharp.Specs
 
 open System
-open FluentAssertions
+open AwesomeAssertions
 open Xunit
 open Xunit.Sdk
 
-module FSharpSpecs = 
+module FSharpSpecs =
 
     [<Fact>]
     let ``Caller identification works in F#`` () =

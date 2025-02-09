@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using AwesomeAssertions.Formatting;
+using Xunit;
 
 namespace AwesomeAssertions.Specs.Formatting;
 

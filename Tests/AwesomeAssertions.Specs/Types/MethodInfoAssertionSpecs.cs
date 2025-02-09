@@ -2,6 +2,7 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using AwesomeAssertions.Common;
 using Xunit;
 using Xunit.Sdk;
 

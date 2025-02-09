@@ -1,8 +1,8 @@
 ﻿using System;
+using AwesomeAssertions.Types;
 using DummyNamespace;
 using DummyNamespace.InnerDummyNamespace;
 using DummyNamespaceTwo;
-using AwesomeAssertions.Types;
 using Xunit;
 using Xunit.Sdk;
 
