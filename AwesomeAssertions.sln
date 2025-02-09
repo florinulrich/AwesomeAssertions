@@ -41,7 +41,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSpec.Specs", "Tests\TestFr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks", "Tests\Benchmarks\Benchmarks.csproj", "{FCAFB0F1-79EA-4D49-813B-188D4BC4BE71}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Approval.Tests", "Tests\Approval.Tests\Approval.Tests.csproj", "{F5115158-A038-4D14-A04E-46E7863E40B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentAssertionAliases.Approval.Tests", "Tests\FluentAssertionAliases.Approval.Tests\FluentAssertionAliases.Approval.Tests.csproj", "{F5115158-A038-4D14-A04E-46E7863E40B9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeAssertions.Specs", "Tests\AwesomeAssertions.Specs\AwesomeAssertions.Specs.csproj", "{6D31FFF8-E7FD-41D2-996C-CA8DDFDAE4FD}"
 EndProject
@@ -64,6 +64,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit3Core.Specs", "Tests\TestFrameworks\XUnit3Core.Specs\XUnit3Core.Specs.csproj", "{77BB9496-169D-43DA-BCED-7DB3ACD9179A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeAssertions.FluentAssertionsAliases", "Src\AwesomeAssertions.FluentAssertionsAliases\AwesomeAssertions.FluentAssertionsAliases.csproj", "{FF7E0B0F-D1B5-4C9E-8E9D-968B1282BA61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Approval.Tests", "Tests\Approval.Tests\Approval.Tests.csproj", "{5CE1F5CB-117D-4084-A669-5841D7051D76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,6 +199,12 @@ Global
 		{FF7E0B0F-D1B5-4C9E-8E9D-968B1282BA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF7E0B0F-D1B5-4C9E-8E9D-968B1282BA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF7E0B0F-D1B5-4C9E-8E9D-968B1282BA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE1F5CB-117D-4084-A669-5841D7051D76}.CI|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE1F5CB-117D-4084-A669-5841D7051D76}.CI|Any CPU.Build.0 = Debug|Any CPU
+		{5CE1F5CB-117D-4084-A669-5841D7051D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE1F5CB-117D-4084-A669-5841D7051D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE1F5CB-117D-4084-A669-5841D7051D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE1F5CB-117D-4084-A669-5841D7051D76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -223,6 +231,7 @@ Global
 		{AF1479D8-519F-4C6B-9E8C-5A84A6D5549A} = {4D8FA213-8724-4C43-B68A-F018148D238C}
 		{77BB9496-169D-43DA-BCED-7DB3ACD9179A} = {4D8FA213-8724-4C43-B68A-F018148D238C}
 		{FF7E0B0F-D1B5-4C9E-8E9D-968B1282BA61} = {31891850-3EDC-480A-9B6C-F60540E9C90F}
+		{5CE1F5CB-117D-4084-A669-5841D7051D76} = {963262D0-9FD5-4741-8C0E-E2F34F110EF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75DDA3D8-9D6F-4865-93F4-DDE11DEE8290}
