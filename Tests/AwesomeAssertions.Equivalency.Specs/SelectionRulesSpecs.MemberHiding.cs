@@ -3,7 +3,7 @@ using AwesomeAssertions;
 using JetBrains.Annotations;
 using Xunit;
 
-namespace FluentAssertions.Equivalency.Specs;
+namespace AwesomeAssertions.Equivalency.Specs;
 
 public partial class SelectionRulesSpecs
 {

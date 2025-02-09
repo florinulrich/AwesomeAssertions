@@ -3,7 +3,7 @@ using AwesomeAssertions;
 using Xunit;
 using Xunit.Sdk;
 
-namespace FluentAssertions.Equivalency.Specs;
+namespace AwesomeAssertions.Equivalency.Specs;
 
 public class NonEquivalencySpecs
 {

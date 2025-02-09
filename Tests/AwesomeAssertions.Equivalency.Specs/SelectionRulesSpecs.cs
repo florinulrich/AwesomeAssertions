@@ -5,7 +5,7 @@ using AwesomeAssertions.Equivalency.Ordering;
 using AwesomeAssertions.Equivalency.Selection;
 using Xunit;
 
-namespace FluentAssertions.Equivalency.Specs;
+namespace AwesomeAssertions.Equivalency.Specs;
 
 public partial class SelectionRulesSpecs
 {

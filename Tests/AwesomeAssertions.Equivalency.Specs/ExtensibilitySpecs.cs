@@ -11,7 +11,7 @@ using JetBrains.Annotations;
 using Xunit;
 using Xunit.Sdk;
 
-namespace FluentAssertions.Equivalency.Specs;
+namespace AwesomeAssertions.Equivalency.Specs;
 
 /// <summary>
 /// Test Class containing specs over the extensibility points of Should().BeEquivalentTo
@@ -155,7 +155,7 @@ public class ExtensibilitySpecs
             }
 
             PropertyInfo runtimeProperty = subject.GetType().GetRuntimeProperty(name);
-            return runtimeProperty is not null ? new Property(runtimeProperty, parent) : null;
+            return runtimeProperty is not null ? new Equivalency.Property(runtimeProperty, parent) : null;
         }
     }
 

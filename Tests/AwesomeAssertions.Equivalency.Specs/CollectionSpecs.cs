@@ -10,7 +10,7 @@ using AwesomeAssertions.Extensions;
 using Xunit;
 using Xunit.Sdk;
 
-namespace FluentAssertions.Equivalency.Specs;
+namespace AwesomeAssertions.Equivalency.Specs;
 
 public class CollectionSpecs
 {
@@ -135,7 +135,7 @@ public class CollectionSpecs
         public IEnumerable<IMember> SelectMembers(INode currentNode, IEnumerable<IMember> selectedMembers,
             MemberSelectionContext context)
         {
-            return context.Type.GetProperties().Select(pi => new Property(pi, currentNode));
+            return context.Type.GetProperties().Select(pi => new Equivalency.Property(pi, currentNode));
         }
 
         bool IMemberSelectionRule.IncludesMembers => OverridesStandardIncludeRules;

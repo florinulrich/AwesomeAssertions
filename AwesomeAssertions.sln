@@ -47,7 +47,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeAssertions.Specs", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWP.Specs", "Tests\UWP.Specs\UWP.Specs.csproj", "{08087654-2C32-4818-95E4-45362373441D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentAssertions.Equivalency.Specs", "Tests\FluentAssertions.Equivalency.Specs\FluentAssertions.Equivalency.Specs.csproj", "{A946043D-D3F8-46A4-B485-A88412C417FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeAssertions.Equivalency.Specs", "Tests\AwesomeAssertions.Equivalency.Specs\AwesomeAssertions.Equivalency.Specs.csproj", "{A946043D-D3F8-46A4-B485-A88412C417FE}"
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB.Specs", "Tests\VB.Specs\VB.Specs.vbproj", "{0C0211B6-D185-4518-A15A-38AC092EDC50}"
 EndProject

@@ -6,7 +6,7 @@ using JetBrains.Annotations;
 using Xunit;
 using Xunit.Sdk;
 
-namespace FluentAssertions.Equivalency.Specs;
+namespace AwesomeAssertions.Equivalency.Specs;
 
 public partial class SelectionRulesSpecs
 {

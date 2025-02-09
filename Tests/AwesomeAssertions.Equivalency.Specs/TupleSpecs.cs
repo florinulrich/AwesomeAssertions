@@ -2,7 +2,7 @@
 using AwesomeAssertions;
 using Xunit;
 
-namespace FluentAssertions.Equivalency.Specs;
+namespace AwesomeAssertions.Equivalency.Specs;
 
 public class TupleSpecs
 {

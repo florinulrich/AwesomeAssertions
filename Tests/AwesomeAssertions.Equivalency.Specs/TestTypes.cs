@@ -8,7 +8,7 @@ using System.Collections.Generic;
 // ReSharper disable AutoPropertyCanBeMadeGetOnly.Local
 #pragma warning disable SA1649
 
-namespace FluentAssertions.Equivalency.Specs;
+namespace AwesomeAssertions.Equivalency.Specs;
 
 public enum EnumULong : ulong
 {
