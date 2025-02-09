@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Threading.Tasks;
-using FluentAssertions.Types;
+using AwesomeAssertions.Types;
 using Internal.AbstractAndNotAbstractClasses.Test;
 using Internal.InterfaceAndClasses.Test;
 using Internal.Main.Test;

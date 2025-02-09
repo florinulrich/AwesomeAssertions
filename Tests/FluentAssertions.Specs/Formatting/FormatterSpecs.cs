@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using FluentAssertions.Extensions;
-using FluentAssertions.Formatting;
+using AwesomeAssertions;
+using AwesomeAssertions.Extensions;
+using AwesomeAssertions.Formatting;
 using FluentAssertions.Specs.Common;
 using Xunit;
 using Xunit.Sdk;
@@ -211,13 +212,13 @@ public sealed class FormatterSpecs : IDisposable
                 """
                 Expected stuff to be equal to
                 {
-                    FluentAssertions.Specs.Formatting.FormatterSpecs+Stuff`1[[System.Int32*]]
+                    AwesomeAssertions.Specs.Formatting.FormatterSpecs+Stuff`1[[System.Int32*]]
                     {
                         Children = {1, 2, 3, 4},
                         Description = "Stuff_1",
                         StuffId = 1
                     },
-                    FluentAssertions.Specs.Formatting.FormatterSpecs+Stuff`1[[System.Int32*]]
+                    AwesomeAssertions.Specs.Formatting.FormatterSpecs+Stuff`1[[System.Int32*]]
                     {
                         Children = {1, 2, 3, 4},
                         Description = "WRONG_DESCRIPTION",
@@ -225,13 +226,13 @@ public sealed class FormatterSpecs : IDisposable
                     }
                 }, but
                 {
-                    FluentAssertions.Specs.Formatting.FormatterSpecs+Stuff`1[[System.Int32*]]
+                    AwesomeAssertions.Specs.Formatting.FormatterSpecs+Stuff`1[[System.Int32*]]
                     {
                         Children = {1, 2, 3, 4},
                         Description = "Stuff_1",
                         StuffId = 1
                     },
-                    FluentAssertions.Specs.Formatting.FormatterSpecs+Stuff`1[[System.Int32*]]
+                    AwesomeAssertions.Specs.Formatting.FormatterSpecs+Stuff`1[[System.Int32*]]
                     {
                         Children = {1, 2, 3, 4},
                         Description = "Stuff_2",
@@ -254,12 +255,12 @@ public sealed class FormatterSpecs : IDisposable
         act.Should().Throw<XunitException>()
             .Which.Message.Should().Match(
                 """
-                Expected stuff to be <null>, but found FluentAssertions.Specs.Formatting.FormatterSpecs+StuffRecord
+                Expected stuff to be <null>, but found AwesomeAssertions.Specs.Formatting.FormatterSpecs+StuffRecord
                 {
                     RecordChildren = {10, 20, 30, 40},
                     RecordDescription = "description",
                     RecordId = 42,
-                    SingleChild = FluentAssertions.Specs.Formatting.FormatterSpecs+ChildRecord
+                    SingleChild = AwesomeAssertions.Specs.Formatting.FormatterSpecs+ChildRecord
                     {
                         ChildRecordId = 24
                     }
@@ -443,12 +444,12 @@ public sealed class FormatterSpecs : IDisposable
                 Expected stuff to be*
                 {
                     RecordDescription = "WRONG_DESCRIPTION"
-                }, but found FluentAssertions.Specs.Formatting.FormatterSpecs+StuffRecord
+                }, but found AwesomeAssertions.Specs.Formatting.FormatterSpecs+StuffRecord
                 {
                     RecordChildren = {4, 5, 6, 7},*
                     RecordDescription = "descriptive",*
                     RecordId = 9,*
-                    SingleChild = FluentAssertions.Specs.Formatting.FormatterSpecs+ChildRecord
+                    SingleChild = AwesomeAssertions.Specs.Formatting.FormatterSpecs+ChildRecord
                     {
                         ChildRecordId = 80
                     }
@@ -913,8 +914,8 @@ public sealed class FormatterSpecs : IDisposable
         string result = Formatter.ToString(subject, new FormattingOptions { UseLineBreaks = true });
 
         // Assert
-        result.Should().Contain($"FluentAssertions.Specs.Formatting.FormatterSpecs+A, {Environment.NewLine}");
-        result.Should().Contain($"FluentAssertions.Specs.Formatting.FormatterSpecs+B{Environment.NewLine}");
+        result.Should().Contain($"AwesomeAssertions.Specs.Formatting.FormatterSpecs+A, {Environment.NewLine}");
+        result.Should().Contain($"AwesomeAssertions.Specs.Formatting.FormatterSpecs+B{Environment.NewLine}");
     }
 
     public class BaseStuff
@@ -1003,7 +1004,7 @@ public sealed class FormatterSpecs : IDisposable
         string str = Formatter.ToString(values);
 
         str.Should().Match(Environment.NewLine +
-            "{*FluentAssertions*FormatterSpecs+CustomClass" + Environment.NewLine +
+            "{*AwesomeAssertions*FormatterSpecs+CustomClass" + Environment.NewLine +
             "    {" + Environment.NewLine +
             "        IntProperty = 1," + Environment.NewLine +
             "        StringProperty = <null>" + Environment.NewLine +

@@ -1,5 +1,5 @@
 ﻿using System;
-using FluentAssertions.Common;
+using AwesomeAssertions.Common;
 using Xunit;
 using Xunit.Sdk;
 

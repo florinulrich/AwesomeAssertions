@@ -2,8 +2,9 @@
 
 using System;
 using System.Threading.Tasks;
-using FluentAssertions.Execution;
-using FluentAssertions.Extensions;
+using AwesomeAssertions;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Extensions;
 #if NET47
 using FluentAssertions.Specs.Common;
 #endif

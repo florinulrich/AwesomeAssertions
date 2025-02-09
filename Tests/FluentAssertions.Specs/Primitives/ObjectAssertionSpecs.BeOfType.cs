@@ -1,7 +1,7 @@
 ﻿using System;
 using AssemblyA;
 using AssemblyB;
-using FluentAssertions.Execution;
+using AwesomeAssertions.Execution;
 using Xunit;
 using Xunit.Sdk;
 
@@ -155,7 +155,7 @@ public partial class ObjectAssertionSpecs
             // Assert
             act.Should().Throw<XunitException>()
                 .WithMessage(
-                    "Expected type to be [AssemblyB.ClassC, FluentAssertions.Specs*], but found [AssemblyB.ClassC, AssemblyB*].");
+                    "Expected type to be [AssemblyB.ClassC, AwesomeAssertions.Specs*], but found [AssemblyB.ClassC, AssemblyB*].");
         }
 
         [Fact]
@@ -169,7 +169,7 @@ public partial class ObjectAssertionSpecs
 
             // Assert
             act.Should().Throw<XunitException>().WithMessage(
-                "Expected type to be FluentAssertions*DummyBaseClass, but found FluentAssertions*DummyImplementingClass.");
+                "Expected type to be AwesomeAssertions*DummyBaseClass, but found AwesomeAssertions*DummyImplementingClass.");
         }
     }
 

@@ -3,7 +3,7 @@
 using System;
 using Xunit;
 
-namespace FluentAssertions.Specs.Primitives;
+namespace AwesomeAssertions.Specs.Primitives;
 
 public partial class DateOnlyAssertionSpecs
 {

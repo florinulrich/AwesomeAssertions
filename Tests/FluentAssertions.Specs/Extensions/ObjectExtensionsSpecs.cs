@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
-using FluentAssertions.Common;
+using AwesomeAssertions;
+using AwesomeAssertions.Common;
 using Xunit;
 
 namespace FluentAssertions.Specs.Extensions;

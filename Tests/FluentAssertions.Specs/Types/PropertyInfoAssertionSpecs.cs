@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Reflection;
-using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using AwesomeAssertions.Common;
+using AwesomeAssertions.Execution;
 using Xunit;
 using Xunit.Sdk;
 
@@ -173,7 +173,7 @@ public class PropertyInfoAssertionSpecs
             act.Should().Throw<XunitException>()
                 .WithMessage("Expected property " +
                     "ClassWithPropertiesThatAreNotDecoratedWithDummyAttribute.PublicProperty to be decorated with " +
-                    "FluentAssertions*DummyPropertyAttribute because we want to test the error message, but that attribute was not found.");
+                    "AwesomeAssertions*DummyPropertyAttribute because we want to test the error message, but that attribute was not found.");
         }
 
         [Fact]
@@ -193,7 +193,7 @@ public class PropertyInfoAssertionSpecs
             act.Should().Throw<XunitException>()
                 .WithMessage(
                     "Expected property ClassWithPropertiesThatAreNotDecoratedWithDummyAttribute.PublicProperty to be decorated with " +
-                    "FluentAssertions*DummyPropertyAttribute because we want to test the error message," +
+                    "AwesomeAssertions*DummyPropertyAttribute because we want to test the error message," +
                     " but that attribute was not found.");
         }
 

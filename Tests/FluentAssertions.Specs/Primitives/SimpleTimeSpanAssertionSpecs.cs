@@ -1,7 +1,7 @@
 ﻿using System;
-using FluentAssertions.Execution;
-using FluentAssertions.Extensions;
-using FluentAssertions.Primitives;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Extensions;
+using AwesomeAssertions.Primitives;
 using Xunit;
 using Xunit.Sdk;
 

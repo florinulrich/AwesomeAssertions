@@ -1,7 +1,8 @@
 using System;
-using FluentAssertions.Equivalency.Matching;
-using FluentAssertions.Equivalency.Ordering;
-using FluentAssertions.Equivalency.Selection;
+using AwesomeAssertions;
+using AwesomeAssertions.Equivalency.Matching;
+using AwesomeAssertions.Equivalency.Ordering;
+using AwesomeAssertions.Equivalency.Selection;
 using Xunit;
 
 namespace FluentAssertions.Equivalency.Specs;

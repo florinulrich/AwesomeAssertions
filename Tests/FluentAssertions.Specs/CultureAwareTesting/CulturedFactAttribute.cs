@@ -3,7 +3,7 @@ using Xunit.Sdk;
 
 namespace FluentAssertions.Specs.CultureAwareTesting;
 
-[XunitTestCaseDiscoverer("FluentAssertions.Specs.CultureAwareTesting.CulturedFactAttributeDiscoverer", "FluentAssertions.Specs")]
+[XunitTestCaseDiscoverer("AwesomeAssertions.Specs.CultureAwareTesting.CulturedFactAttributeDiscoverer", "AwesomeAssertions.Specs")]
 public sealed class CulturedFactAttribute : FactAttribute
 {
 #pragma warning disable CA1019 // Define accessors for attribute arguments

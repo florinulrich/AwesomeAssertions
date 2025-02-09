@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
-using FluentAssertions.Execution;
+using AwesomeAssertions.Execution;
 using Xunit;
 using Xunit.Sdk;
 

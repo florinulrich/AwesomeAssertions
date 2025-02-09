@@ -1,11 +1,12 @@
 ﻿using System;
-using FluentAssertions.Execution;
+using AwesomeAssertions;
+using AwesomeAssertions.Execution;
 #if NET47
 using FluentAssertions.Specs.Common;
 #endif
 using Xunit;
 using Xunit.Sdk;
-using static FluentAssertions.Extensions.FluentTimeSpanExtensions;
+using static AwesomeAssertions.Extensions.FluentTimeSpanExtensions;
 
 namespace FluentAssertions.Specs.Exceptions;
 

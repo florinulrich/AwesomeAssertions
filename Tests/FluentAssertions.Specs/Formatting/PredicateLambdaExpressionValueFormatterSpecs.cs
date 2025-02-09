@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using FluentAssertions.Formatting;
+using AwesomeAssertions;
+using AwesomeAssertions.Formatting;
 using Xunit;
 using Xunit.Sdk;
 

@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AwesomeAssertions;
 using Xunit;
-using static FluentAssertions.FluentActions;
+using static AwesomeAssertions.FluentActions;
 
 namespace FluentAssertions.Specs.Extensions;
 

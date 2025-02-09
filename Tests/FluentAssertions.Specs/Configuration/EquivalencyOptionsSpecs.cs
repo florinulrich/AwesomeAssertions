@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Linq;
 using System.Threading.Tasks;
-using FluentAssertions.Equivalency;
-using FluentAssertions.Equivalency.Steps;
-using FluentAssertions.Execution;
+using AwesomeAssertions;
+using AwesomeAssertions.Equivalency;
+using AwesomeAssertions.Equivalency.Steps;
 using JetBrains.Annotations;
 using Xunit;
 using Xunit.Sdk;

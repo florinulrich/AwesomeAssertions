@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Runtime.Serialization;
-using FluentAssertions.Extensions;
+using AwesomeAssertions.Extensions;
 using JetBrains.Annotations;
 using Xunit;
 using Xunit.Sdk;

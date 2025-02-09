@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using FluentAssertions.Common;
+using AwesomeAssertions.Common;
 #if NET8_0_OR_GREATER
-using ITimer = FluentAssertions.Common.ITimer;
+using ITimer = AwesomeAssertions.Common.ITimer;
 #endif
 
 namespace FluentAssertions.Specs;

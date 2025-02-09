@@ -5,7 +5,8 @@ using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Globalization;
 using System.Linq;
-using FluentAssertions.Equivalency.Tracing;
+using AwesomeAssertions;
+using AwesomeAssertions.Equivalency.Tracing;
 using Newtonsoft.Json;
 using Xunit;
 using Xunit.Sdk;
@@ -958,7 +959,7 @@ public class DictionarySpecs
         // Assert
         action.Should().Throw<XunitException>()
             .WithMessage(
-                "Expected dictionary2 to be a dictionary or collection of key-value pairs that is keyed to type FluentAssertions.Equivalency.Specs.DictionarySpecs+SomeBaseKeyClass.*");
+                "Expected dictionary2 to be a dictionary or collection of key-value pairs that is keyed to type AwesomeAssertions.Equivalency.Specs.DictionarySpecs+SomeBaseKeyClass.*");
     }
 
     [Fact]

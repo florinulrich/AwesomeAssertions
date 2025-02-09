@@ -1,5 +1,6 @@
 ﻿using System;
-using FluentAssertions.Formatting;
+using AwesomeAssertions;
+using AwesomeAssertions.Formatting;
 using Xunit;
 
 namespace FluentAssertions.Specs.Formatting;

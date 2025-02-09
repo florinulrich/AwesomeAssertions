@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
-using FluentAssertions.Common;
-using FluentAssertions.Execution;
-using FluentAssertions.Numeric;
-using FluentAssertions.Primitives;
-using FluentAssertions.Specialized;
-using FluentAssertions.Types;
+using AwesomeAssertions;
+using AwesomeAssertions.Common;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Numeric;
+using AwesomeAssertions.Primitives;
+using AwesomeAssertions.Specialized;
+using AwesomeAssertions.Types;
 using Xunit;
 
 namespace FluentAssertions.Specs;
@@ -19,7 +20,7 @@ public class AssertionExtensionsSpecs
     public void Assertions_classes_override_equals()
     {
         // Arrange / Act
-        var equalsOverloads = AllTypes.From(typeof(FluentAssertions.AssertionExtensions).Assembly)
+        var equalsOverloads = AllTypes.From(typeof(AwesomeAssertions.AssertionExtensions).Assembly)
             .ThatAreClasses()
             .Where(t => t.IsPublic && t.Name.TrimEnd('`', '1', '2', '3').EndsWith("Assertions", StringComparison.Ordinal))
             .Select(e => GetMostParentType(e))
@@ -67,7 +68,7 @@ public class AssertionExtensionsSpecs
     public void Guarding_equals_throws(object obj)
     {
         // Act
-        Action act = () => obj.Equals(null);
+        Action act = () => _ = obj.Equals(null);
 
         // Assert
         act.Should().ThrowExactly<NotSupportedException>();
@@ -95,7 +96,7 @@ public class AssertionExtensionsSpecs
     public void Fake_should_method_throws(Type type)
     {
         // Arrange
-        MethodInfo fakeOverload = AllTypes.From(typeof(FluentAssertions.AssertionExtensions).Assembly)
+        MethodInfo fakeOverload = AllTypes.From(typeof(AwesomeAssertions.AssertionExtensions).Assembly)
             .ThatAreClasses()
             .ThatAreStatic()
             .Where(t => t.IsPublic)
@@ -122,7 +123,7 @@ public class AssertionExtensionsSpecs
     public void Should_methods_have_a_matching_overload_to_guard_against_chaining_and_constraints()
     {
         // Arrange / Act
-        List<MethodInfo> shouldOverloads = AllTypes.From(typeof(FluentAssertions.AssertionExtensions).Assembly)
+        List<MethodInfo> shouldOverloads = AllTypes.From(typeof(AwesomeAssertions.AssertionExtensions).Assembly)
             .ThatAreClasses()
             .ThatAreStatic()
             .Where(t => t.IsPublic)
@@ -176,7 +177,7 @@ public class AssertionExtensionsSpecs
 
     public static TheoryData<MethodInfo> GetShouldMethods(bool referenceTypes)
     {
-        return new(AllTypes.From(typeof(FluentAssertions.AssertionExtensions).Assembly)
+        return new(AllTypes.From(typeof(AwesomeAssertions.AssertionExtensions).Assembly)
             .ThatAreClasses()
             .ThatAreStatic()
             .Where(t => t.IsPublic)

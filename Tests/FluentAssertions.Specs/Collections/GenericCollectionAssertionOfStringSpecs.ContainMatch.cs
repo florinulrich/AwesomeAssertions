@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
-using FluentAssertions.Execution;
+using AwesomeAssertions;
+using AwesomeAssertions.Execution;
 using Xunit;
 using Xunit.Sdk;
 
@@ -61,7 +62,7 @@ public partial class GenericCollectionAssertionOfStringSpecs
 
             // Assert
             action.Should().Throw<XunitException>()
-                .WithMessage("More than one object found.  FluentAssertions cannot determine which object is meant.*")
+                .WithMessage("More than one object found.  AwesomeAssertions cannot determine which object is meant.*")
                 .WithMessage("*Found objects:*\"test failed\"*\"pack failed\"");
         }
 

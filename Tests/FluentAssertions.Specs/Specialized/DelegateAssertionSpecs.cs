@@ -1,5 +1,5 @@
 ﻿using System;
-using FluentAssertions.Execution;
+using AwesomeAssertions.Execution;
 using Xunit;
 
 namespace FluentAssertions.Specs.Specialized;

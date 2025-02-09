@@ -2,7 +2,7 @@
 using DummyNamespace;
 using DummyNamespace.InnerDummyNamespace;
 using DummyNamespaceTwo;
-using FluentAssertions.Types;
+using AwesomeAssertions.Types;
 using Xunit;
 using Xunit.Sdk;
 

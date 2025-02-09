@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
-using FluentAssertions;
-using FluentAssertions.Equivalency;
-using FluentAssertions.Execution;
-using FluentAssertions.Extensions;
+using AwesomeAssertions;
+using AwesomeAssertions.Equivalency;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Extensions;
 using Xunit;
 using Xunit.Sdk;
 
@@ -558,9 +558,9 @@ namespace FluentAssertions.Specs.Execution
              We want to test this specific scenario.
 
                 1. CallerIdentifier.DetermineCallerIdentity
-                2. FluentAssertions code
+                2. AwesomeAssertions code
                 3. Custom extension <--- pointed to by lastUserStackFrameBeforeFluentAssertionsCodeIndex
-                4. FluentAssertions code  <--- this is where DetermineCallerIdentity tried to get the variable name from before the fix
+                4. AwesomeAssertions code  <--- this is where DetermineCallerIdentity tried to get the variable name from before the fix
                 5. Test
              */
 

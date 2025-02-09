@@ -1,5 +1,6 @@
 ﻿using System;
-using FluentAssertions.Execution;
+using AwesomeAssertions;
+using AwesomeAssertions.Execution;
 using Xunit;
 using Xunit.Sdk;
 
@@ -7,7 +8,7 @@ namespace FluentAssertions.Specs;
 
 public class AssertionFailureSpecs
 {
-    private static readonly string AssertionsTestSubClassName = typeof(AssertionsTestSubClass).Name;
+    private const string AssertionsTestSubClassName = nameof(AssertionsTestSubClass);
 
     [Fact]
     public void When_reason_starts_with_because_it_should_not_do_anything()

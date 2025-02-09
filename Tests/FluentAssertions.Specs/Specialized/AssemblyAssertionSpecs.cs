@@ -2,7 +2,7 @@
 using System.Reflection;
 using AssemblyA;
 using AssemblyB;
-using FluentAssertions.Specs.Types;
+using AwesomeAssertions.Specs.Types;
 using Xunit;
 using Xunit.Sdk;
 

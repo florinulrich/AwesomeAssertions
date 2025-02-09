@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Globalization;
-using FluentAssertions.Extensions;
-using FluentAssertions.Formatting;
+using AwesomeAssertions;
+using AwesomeAssertions.Extensions;
+using AwesomeAssertions.Formatting;
 using Xunit;
 
 namespace FluentAssertions.Specs.Formatting;

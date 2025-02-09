@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Immutable;
 using System.Linq;
-using FluentAssertions.Execution;
+using AwesomeAssertions;
+using AwesomeAssertions.Execution;
 using Xunit;
 using Xunit.Sdk;
 

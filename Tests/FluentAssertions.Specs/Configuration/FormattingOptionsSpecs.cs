@@ -1,8 +1,9 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
-using FluentAssertions.Common;
-using FluentAssertions.Execution;
-using FluentAssertions.Formatting;
+using AwesomeAssertions;
+using AwesomeAssertions.Common;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Formatting;
 using JetBrains.Annotations;
 using Xunit;
 using Xunit.Sdk;
@@ -100,7 +101,7 @@ public sealed class FormattingOptionsSpecs : IDisposable
     public void When_no_custom_formatter_exists_in_the_specified_assembly_it_should_use_the_default()
     {
         // Arrange
-        AssertionConfiguration.Current.Formatting.ValueFormatterAssembly = "FluentAssertions";
+        AssertionConfiguration.Current.Formatting.ValueFormatterAssembly = "AwesomeAssertions";
 
         var subject = new SomeClassWithCustomFormatter
         {

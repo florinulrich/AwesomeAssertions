@@ -1,6 +1,6 @@
 ﻿using System;
-using FluentAssertions.Execution;
-using FluentAssertions.Types;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Types;
 using Xunit;
 using Xunit.Sdk;
 
@@ -158,7 +158,7 @@ public class PropertyInfoSelectorAssertionSpecs
             // Assert
             act.Should().Throw<XunitException>()
                 .WithMessage("Expected all selected properties to be decorated with" +
-                    " FluentAssertions*DummyPropertyAttribute because we want to test the error message," +
+                    " AwesomeAssertions*DummyPropertyAttribute because we want to test the error message," +
                     " but the following properties are not:*" +
                     "ClassWithPropertiesThatAreNotDecoratedWithDummyAttribute.PublicProperty*" +
                     "ClassWithPropertiesThatAreNotDecoratedWithDummyAttribute.InternalProperty*" +

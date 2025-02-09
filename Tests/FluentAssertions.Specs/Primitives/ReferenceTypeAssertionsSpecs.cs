@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using FluentAssertions.Execution;
-using FluentAssertions.Extensions;
-using FluentAssertions.Primitives;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Extensions;
+using AwesomeAssertions.Primitives;
 using Xunit;
 using Xunit.Sdk;
 
@@ -63,7 +63,7 @@ public partial class ReferenceTypeAssertionsSpecs
             """
             Expected subject to be empty, but found at least one item
             {
-                FluentAssertions.Specs.Primitives.Complex
+                AwesomeAssertions.Specs.Primitives.Complex
                 {
                     Statement = "goodbye"
                 }
@@ -397,8 +397,8 @@ public partial class ReferenceTypeAssertionsSpecs
 
         // Assert
         act.Should().Throw<XunitException>().WithMessage(
-            "Expected subject to be*FluentAssertions*SomeDto*{*Age = 2*Birthdate = <2009-02-22>*" +
-            "  Name = \"Teddie\"*}, but found*FluentAssertions*SomeDto*{*Age = 37*" +
+            "Expected subject to be*AwesomeAssertions*SomeDto*{*Age = 2*Birthdate = <2009-02-22>*" +
+            "  Name = \"Teddie\"*}, but found*AwesomeAssertions*SomeDto*{*Age = 37*" +
             "  Birthdate = <1973-09-20>*Name = \"Dennis\"*}.");
     }
 

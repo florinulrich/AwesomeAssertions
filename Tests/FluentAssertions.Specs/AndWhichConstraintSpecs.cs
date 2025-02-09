@@ -1,5 +1,6 @@
 ﻿using System;
-using FluentAssertions.Collections;
+using AwesomeAssertions;
+using AwesomeAssertions.Collections;
 using Xunit;
 using Xunit.Sdk;
 
@@ -19,7 +20,7 @@ public class AndWhichConstraintSpecs
         // Assert
         act.Should().Throw<XunitException>()
             .WithMessage(
-                "More than one object found.  FluentAssertions cannot determine which object is meant.*")
+                "More than one object found.  AwesomeAssertions cannot determine which object is meant.*")
             .WithMessage("*Found objects:*\"hello\"*\"world\"");
     }
 }

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using FluentAssertions.Execution;
-using FluentAssertions.Extensions;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Extensions;
 using Xunit;
 using Xunit.Sdk;
-using static FluentAssertions.FluentActions;
+using static AwesomeAssertions.FluentActions;
 
 namespace FluentAssertions.Specs.Specialized;
 

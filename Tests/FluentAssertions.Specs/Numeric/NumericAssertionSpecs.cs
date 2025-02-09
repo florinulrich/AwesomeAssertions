@@ -1,4 +1,5 @@
 using System;
+using AwesomeAssertions;
 using Xunit;
 
 namespace FluentAssertions.Specs.Numeric;

@@ -2,11 +2,11 @@
 using System.Threading;
 
 // With specific initialization code to invoke before the first assertion happens
-[assembly: FluentAssertions.Extensibility.AssertionEngineInitializer(
+[assembly: AwesomeAssertions.Extensibility.AssertionEngineInitializer(
     typeof(FluentAssertions.Extensibility.Specs.AssertionEngineInitializer),
     nameof(FluentAssertions.Extensibility.Specs.AssertionEngineInitializer.InitializeBeforeFirstAssertion))]
 
-[assembly: FluentAssertions.Extensibility.AssertionEngineInitializer(
+[assembly: AwesomeAssertions.Extensibility.AssertionEngineInitializer(
     typeof(FluentAssertions.Extensibility.Specs.AssertionEngineInitializer),
     nameof(FluentAssertions.Extensibility.Specs.AssertionEngineInitializer.InitializeBeforeFirstAssertionButThrow))]
 

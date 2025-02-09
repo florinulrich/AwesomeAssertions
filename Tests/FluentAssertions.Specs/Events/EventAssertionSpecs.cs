@@ -6,13 +6,15 @@ using System;
 using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
-using FluentAssertions.Events;
-using FluentAssertions.Execution;
-using FluentAssertions.Extensions;
-using FluentAssertions.Formatting;
+using AwesomeAssertions;
+using AwesomeAssertions.Events;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Extensions;
+using AwesomeAssertions.Formatting;
 using Xunit;
 using Xunit.Sdk;
 
+// ReSharper disable AccessToDisposedClosure
 namespace FluentAssertions.Specs.Events;
 
 [Collection("EventMonitoring")]

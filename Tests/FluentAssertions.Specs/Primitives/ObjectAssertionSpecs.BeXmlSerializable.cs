@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
-using FluentAssertions.Extensions;
+using AwesomeAssertions.Extensions;
 using JetBrains.Annotations;
 using Xunit;
 using Xunit.Sdk;

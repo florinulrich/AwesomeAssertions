@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml.Linq;
-using FluentAssertions.Execution;
-using FluentAssertions.Formatting;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Formatting;
 using Xunit;
 using Xunit.Sdk;
 

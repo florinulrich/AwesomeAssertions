@@ -1,11 +1,11 @@
 #if NET6_0_OR_GREATER
 using System;
-using FluentAssertions.Execution;
-using FluentAssertions.Extensions;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Extensions;
 using Xunit;
 using Xunit.Sdk;
 
-namespace FluentAssertions.Specs.Primitives;
+namespace AwesomeAssertions.Specs.Primitives;
 
 public partial class TimeOnlyAssertionSpecs
 {

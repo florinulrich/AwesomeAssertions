@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using FluentAssertions.Equivalency;
-using FluentAssertions.Equivalency.Execution;
-using FluentAssertions.Execution;
-using FluentAssertions.Specs.CultureAwareTesting;
+using AwesomeAssertions.Equivalency;
+using AwesomeAssertions.Equivalency.Execution;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Specs.CultureAwareTesting;
 using Xunit;
 using Xunit.Sdk;
 

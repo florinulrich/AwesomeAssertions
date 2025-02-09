@@ -1,11 +1,11 @@
 ﻿#if NET6_0_OR_GREATER
 using System;
 using System.IO;
-using FluentAssertions.Execution;
+using AwesomeAssertions.Execution;
 using Xunit;
 using Xunit.Sdk;
 
-namespace FluentAssertions.Specs.Streams;
+namespace AwesomeAssertions.Specs.Streams;
 
 public class BufferedStreamAssertionSpecs
 {

@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Collections.ObjectModel;
 using System.Linq;
-using FluentAssertions.Extensions;
+using AwesomeAssertions;
+using AwesomeAssertions.Equivalency;
+using AwesomeAssertions.Extensions;
 using Xunit;
 using Xunit.Sdk;
 

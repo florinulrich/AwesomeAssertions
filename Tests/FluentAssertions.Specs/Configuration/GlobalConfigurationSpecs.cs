@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using FluentAssertions.Configuration;
-using FluentAssertions.Execution;
+using AwesomeAssertions;
+using AwesomeAssertions.Configuration;
+using AwesomeAssertions.Execution;
 using Xunit;
 
 namespace FluentAssertions.Specs.Configuration;

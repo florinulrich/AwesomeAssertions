@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using FluentAssertions.Execution;
-using FluentAssertions.Primitives;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Primitives;
 using Xunit;
 
 namespace FluentAssertions.Specs.Primitives;

@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using FluentAssertions.Execution;
-using FluentAssertions.Extensions;
-using FluentAssertions.Specialized;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Extensions;
+using AwesomeAssertions.Specialized;
 using Xunit;
 using Xunit.Sdk;
 

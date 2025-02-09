@@ -1,5 +1,5 @@
 ﻿using System.Xml.Linq;
-using FluentAssertions.Formatting;
+using AwesomeAssertions.Formatting;
 using Xunit;
 
 namespace FluentAssertions.Specs.Xml;

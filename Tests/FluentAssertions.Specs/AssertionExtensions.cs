@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using FluentAssertions.Common;
-using FluentAssertions.Execution;
-using FluentAssertions.Specialized;
+using AwesomeAssertions;
+using AwesomeAssertions.Common;
+using AwesomeAssertions.Execution;
+using AwesomeAssertions.Specialized;
 
 namespace FluentAssertions.Specs;
 
@@ -22,7 +23,7 @@ internal static class AssertionExtensions
 
     public static ActionAssertions Should(this Action action, IClock clock)
     {
-        return new ActionAssertions(action, Extractor, AssertionChain.GetOrCreate(),  clock);
+        return new ActionAssertions(action, Extractor, AssertionChain.GetOrCreate(), clock);
     }
 
     public static FunctionAssertions<T> Should<T>(this Func<T> func, IClock clock)
@@ -40,6 +41,5 @@ internal static class AssertionExtensions
     {
         return new TaskCompletionSourceAssertions(tcs, AssertionChain.GetOrCreate(), clock);
     }
-
 #endif
 }

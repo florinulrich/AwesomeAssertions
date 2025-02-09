@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
-using FluentAssertions.Types;
+using AwesomeAssertions.Types;
 using Internal.Main.Test;
 using Xunit;
 

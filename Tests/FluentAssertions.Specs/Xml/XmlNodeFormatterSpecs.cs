@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Xml;
-using FluentAssertions.Formatting;
+using AwesomeAssertions.Formatting;
 using Xunit;
 
 namespace FluentAssertions.Specs.Xml;

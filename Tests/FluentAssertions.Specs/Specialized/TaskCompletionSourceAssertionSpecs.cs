@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using FluentAssertions.Extensions;
+using AwesomeAssertions.Extensions;
 using Xunit;
 using Xunit.Sdk;
 

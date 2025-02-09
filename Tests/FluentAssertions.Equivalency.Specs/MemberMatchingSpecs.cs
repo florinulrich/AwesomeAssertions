@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
+using AwesomeAssertions;
 using JetBrains.Annotations;
 using Xunit;
 using Xunit.Sdk;
