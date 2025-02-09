@@ -43,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks", "Tests\Benchma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Approval.Tests", "Tests\Approval.Tests\Approval.Tests.csproj", "{F5115158-A038-4D14-A04E-46E7863E40B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentAssertions.Specs", "Tests\FluentAssertions.Specs\FluentAssertions.Specs.csproj", "{6D31FFF8-E7FD-41D2-996C-CA8DDFDAE4FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeAssertions.Specs", "Tests\AwesomeAssertions.Specs\AwesomeAssertions.Specs.csproj", "{6D31FFF8-E7FD-41D2-996C-CA8DDFDAE4FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWP.Specs", "Tests\UWP.Specs\UWP.Specs.csproj", "{08087654-2C32-4818-95E4-45362373441D}"
 EndProject
