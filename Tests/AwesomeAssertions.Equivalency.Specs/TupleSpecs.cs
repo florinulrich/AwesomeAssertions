@@ -1,5 +1,4 @@
 ﻿using System;
-using AwesomeAssertions;
 using Xunit;
 
 namespace AwesomeAssertions.Equivalency.Specs;

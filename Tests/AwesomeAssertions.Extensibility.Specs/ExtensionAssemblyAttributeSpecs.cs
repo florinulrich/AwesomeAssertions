@@ -1,6 +1,6 @@
 ﻿using AwesomeAssertions;
 
-namespace FluentAssertions.Extensibility.Specs;
+namespace AwesomeAssertions.Extensibility.Specs;
 
 public class ExtensionAssemblyAttributeSpecs
 {

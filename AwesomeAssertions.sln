@@ -55,7 +55,7 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.Specs", "Tests\FShar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleExtensions", "Tests\ExampleExtensions\ExampleExtensions.csproj", "{8DF4A6FE-AAD0-41E5-B2F4-34166D1B139C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentAssertions.Extensibility.Specs", "Tests\FluentAssertions.Extensibility.Specs\FluentAssertions.Extensibility.Specs.csproj", "{450FC408-A4E2-4483-B064-2007024D6CF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeAssertions.Extensibility.Specs", "Tests\AwesomeAssertions.Extensibility.Specs\AwesomeAssertions.Extensibility.Specs.csproj", "{450FC408-A4E2-4483-B064-2007024D6CF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUnit.Specs", "Tests\TestFrameworks\TUnit.Specs\TUnit.Specs.csproj", "{6540564E-9B6E-4E1E-8881-6F0DD0F35576}"
 EndProject

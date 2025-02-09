@@ -31,8 +31,8 @@
   </PropertyGroup>
 
   <ItemGroup Label="Internals visible to">
-    <InternalsVisibleTo Include="FluentAssertions.Specs" />
-    <InternalsVisibleTo Include="FluentAssertions.Equivalency.Specs" />
+    <InternalsVisibleTo Include="AwesomeAssertions.Specs" />
+    <InternalsVisibleTo Include="AwesomeAssertions.Equivalency.Specs" />
     <InternalsVisibleTo Include="Benchmarks" />
   </ItemGroup>
 

@@ -1,5 +1,4 @@
 using System;
-using AwesomeAssertions;
 using AwesomeAssertions.Equivalency.Matching;
 using AwesomeAssertions.Equivalency.Ordering;
 using AwesomeAssertions.Equivalency.Selection;

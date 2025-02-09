@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Xml.Linq;
-using AwesomeAssertions;
 using Xunit;
 using Xunit.Sdk;
 

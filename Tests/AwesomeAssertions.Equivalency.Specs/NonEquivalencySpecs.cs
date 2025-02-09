@@ -1,5 +1,4 @@
 ﻿using System;
-using AwesomeAssertions;
 using Xunit;
 using Xunit.Sdk;
 

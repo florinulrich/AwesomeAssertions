@@ -3,14 +3,14 @@ using System.Threading;
 
 // With specific initialization code to invoke before the first assertion happens
 [assembly: AwesomeAssertions.Extensibility.AssertionEngineInitializer(
-    typeof(FluentAssertions.Extensibility.Specs.AssertionEngineInitializer),
-    nameof(FluentAssertions.Extensibility.Specs.AssertionEngineInitializer.InitializeBeforeFirstAssertion))]
+    typeof(AwesomeAssertions.Extensibility.Specs.AssertionEngineInitializer),
+    nameof(AwesomeAssertions.Extensibility.Specs.AssertionEngineInitializer.InitializeBeforeFirstAssertion))]
 
 [assembly: AwesomeAssertions.Extensibility.AssertionEngineInitializer(
-    typeof(FluentAssertions.Extensibility.Specs.AssertionEngineInitializer),
-    nameof(FluentAssertions.Extensibility.Specs.AssertionEngineInitializer.InitializeBeforeFirstAssertionButThrow))]
+    typeof(AwesomeAssertions.Extensibility.Specs.AssertionEngineInitializer),
+    nameof(AwesomeAssertions.Extensibility.Specs.AssertionEngineInitializer.InitializeBeforeFirstAssertionButThrow))]
 
-namespace FluentAssertions.Extensibility.Specs;
+namespace AwesomeAssertions.Extensibility.Specs;
 
 public static class AssertionEngineInitializer
 {

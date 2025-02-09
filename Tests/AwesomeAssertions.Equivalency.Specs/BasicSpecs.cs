@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
-using AwesomeAssertions;
 using AwesomeAssertions.Extensions;
 using Xunit;
 using Xunit.Sdk;

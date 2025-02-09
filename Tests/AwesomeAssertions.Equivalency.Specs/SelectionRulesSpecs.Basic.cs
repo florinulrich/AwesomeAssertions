@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
-using AwesomeAssertions;
 using JetBrains.Annotations;
 using Xunit;
 using Xunit.Sdk;

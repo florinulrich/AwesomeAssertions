@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
-using AwesomeAssertions;
-using AwesomeAssertions.Equivalency;
 using AwesomeAssertions.Execution;
 using AwesomeAssertions.Extensions;
 using JetBrains.Annotations;

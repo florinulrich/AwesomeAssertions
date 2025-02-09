@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using AwesomeAssertions;
 using AwesomeAssertions.Common;
-using AwesomeAssertions.Equivalency;
 using Xunit;
 using Xunit.Sdk;
 
