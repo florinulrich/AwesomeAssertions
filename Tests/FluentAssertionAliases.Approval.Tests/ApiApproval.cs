@@ -22,14 +22,16 @@ public class ApiApproval
     public Task ApproveApi(string framework)
     {
         var configuration = typeof(ApiApproval).Assembly.GetCustomAttribute<AssemblyConfigurationAttribute>()!.Configuration;
-        var assemblyFile = CombinedPaths("Src", "AwesomeAssertions", "bin", configuration, framework, "AwesomeAssertions.dll");
+        var assemblyFile = CombinedPaths("Src", "AwesomeAssertions.FluentAssertionsAliases", "bin",
+            configuration, framework, "AwesomeAssertions.FluentAssertionsAliases.dll");
+
         var assembly = Assembly.LoadFile(assemblyFile);
         var publicApi = assembly.GeneratePublicApi(options: null);
 
         return Verifier
             .Verify(publicApi)
             .ScrubLinesContaining("FrameworkDisplayName")
-            .UseDirectory(Path.Combine("ApprovedApi", "AwesomeAssertions"))
+            .UseDirectory(Path.Combine("ApprovedApi", "FluentAssertions"))
             .UseFileName(framework)
             .DisableDiff();
     }
